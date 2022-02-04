@@ -4,4 +4,5 @@
 # Changing help us to anonimus in a network
 #USAGE
       cd macchanger
-      sudo python macchanger.py  -i {interface} -m {new_mac}
+      sudo su
+      python macchanger.py  -i {interface} -m {new_mac}
